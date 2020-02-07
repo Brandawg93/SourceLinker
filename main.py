@@ -59,6 +59,7 @@ def generate_source_vid(video, username):
     out.release()
     cap.release()
     os.remove(destination + video + ".mp4")
+    print('Done! File is located at ' + destination + username + '_source.mp4');
 
 
 if __name__ == "__main__":
